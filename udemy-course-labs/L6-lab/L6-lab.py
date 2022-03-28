@@ -1,6 +1,6 @@
 import os
 
-#   -   Definicja funkcji
+
 def wordcount(path):
     print('checking whether the file exists...')
     if os.path.isfile(path):
@@ -16,6 +16,5 @@ def wordcount(path):
         return 'the file does not exist'
 
 
-#   -   Odpalanie funkcji
 
-wordcount('/home/wisie/sandbox/udemy-course-labs/L6-lab/file.txt')      # dzien bez slowa na K
+wordcount('/home/wisie/sandbox/udemy-course-labs/L6-lab/file.txt')
